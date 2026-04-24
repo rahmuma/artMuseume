@@ -1,0 +1,78 @@
+/* hero_section */
+/* nav_bar */
+.bgColor{
+    background-color: rgba(128, 0, 0, 0.856);
+}
+#navText{
+    color: aliceblue;
+    font-size: larger;
+}
+
+/* background-img */
+.bg-slide{
+     height: 860px;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+}
+
+/* img */
+.slide1{
+    background-image: url(./src/img/s1Bg_1.jpg);
+}
+
+.slide2{
+    background-image: url(./src/img/s1Bg_2.jpg);
+}
+
+.slide3{
+    background-image: url(./src/img/s1Bg_3.jpg);
+}
+
+.slide4{
+    background-image: url(./src/img/s1Bg_4.jpg);
+}
+
+.slide5{
+    background-image: url(./src/img/s1Bg_5.jpg);
+}
+
+#smallIndicators button{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+
+/* text */
+#carouselBg{
+    position: relative;
+}
+
+#carouselBg {
+    position: relative;
+}
+
+.textPosition {
+    position: absolute;
+    top: 40%;
+    left: 0;
+
+    width: 100%;
+    height:20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    padding: 20px;
+    pointer-events: none;
+}
+
+/* section_2 */
